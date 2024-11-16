@@ -51,7 +51,6 @@ public class TeacherDaoImpl implements TeacherDao {
 	        System.out.println("ID: " + row.get("id"));
 	        System.out.println("Name: " + row.get("name"));
 	        System.out.println("Subject: " + row.get("subject"));
-	        System.out.println("Salary: " + row.get("salary"));
 	        System.out.println("-------------------");
 	    }
 	}
